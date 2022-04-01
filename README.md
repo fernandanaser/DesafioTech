@@ -8,7 +8,7 @@
 
 ```bash
 # Clone este repositório
-$ git clone https: <https://github.com/fernandanaser/DesafioTech.git>
+$ git clone https://github.com/fernandanaser/DesafioTech.git
 
 # Criando a Virtual Env
 $ python -m venv venv  
@@ -26,13 +26,13 @@ $ python manage.py migrate desafioapp
 # Execute a aplicação em modo de desenvolvimento
 $ python manage.py runserver
 
-# O servidor inciará na porta:8000 - acesse <http://127.0.0.1:8000/>
+# O servidor inciará na porta:8000 http://127.0.0.1:8000/
 ```
 #Endpoints Region
 
-`GET` <http://127.0.0.1:8000/region/>
+`GET` http://127.0.0.1:8000/region/
 
-`POST` <http://127.0.0.1:8000/region/>
+`POST` http://127.0.0.1:8000/region/
 
   Body:
 ```json
@@ -41,7 +41,7 @@ $ python manage.py runserver
   }
   ```
 
-`PUT` <http://127.0.0.1:8000/region/:id/>
+`PUT` http://127.0.0.1:8000/region/:id/
 
   Body:
 ```json
@@ -50,13 +50,13 @@ $ python manage.py runserver
     "name": ""
   }
   ```
-`DELETE` <http://127.0.0.1:8000/region/:id/>
+`DELETE` http://127.0.0.1:8000/region/:id/
 
 #Endpoints Fruit
 
-`GET` <http://127.0.0.1:8000/fruit/>
+`GET` http://127.0.0.1:8000/fruit/
 
-`POST` <http://127.0.0.1:8000/fruit/>
+`POST` http://127.0.0.1:8000/fruit/
 
   Body:
 ```json
@@ -64,7 +64,7 @@ $ python manage.py runserver
     "name": ""
   }
 ```
-`PUT` <http://127.0.0.1:8000/fruit/:id/>
+`PUT` http://127.0.0.1:8000/fruit/:id/
 
   Body:
 ```json
@@ -73,6 +73,6 @@ $ python manage.py runserver
     "name": ""
   }
 ```
-`DELETE` <http://127.0.0.1:8000/fruit/:id/>
+`DELETE` http://127.0.0.1:8000/fruit/:id/
 
 
