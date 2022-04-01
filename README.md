@@ -8,7 +8,7 @@
 
 ```bash
 # Clone este repositório
-$ git clone https:
+$ git clone https: <https://github.com/fernandanaser/DesafioTech.git>
 
 # Criando a Virtual Env
 $ python -m venv venv  
